@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './ExperienceCard.module.scss';
 
-function ExperienceCard({ title, company, type, location, startDate, endDate, duration, description, skills }) {
+function ExperienceCard({ title, company, startDate, endDate, description}) {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
