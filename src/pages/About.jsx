@@ -1,12 +1,16 @@
 import SidePanel from "../components/SidePanel";
+import Hero from '../components/Hero';
+import Favorites from '../components/Favorites';
 
 function About() {
-    return(
-         <div style={{ display: "flex"}}>
-            <SidePanel/>
-      <h1>About Me - Maua Imani</h1>
-      <p>This is the about page. We'll build this next!</p>
-    </div>
+    return (
+        <div style={{ display: "flex" }}>
+            <SidePanel />
+            <div style={{ flex: 1 }}>
+                <Hero />
+                <Favorites />
+            </div>
+        </div>
     );
 }
 
