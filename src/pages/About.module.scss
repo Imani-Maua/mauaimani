@@ -5,6 +5,7 @@
     flex-direction: row;
     min-height: 100vh;
     max-width: 100%;
+    background-color: $bg-offwhite;
 }
 
 .mainContent {
@@ -12,36 +13,53 @@
     display: flex;
     flex-direction: column;
     min-width: 0;
+    padding: $spacing-md;
 }
 
 .topSection {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    gap: $spacing-lg;
 }
 
 .heroWrapper {
-    flex: 1;
-    min-width: 320px;
+    flex: 1.5;
+    min-width: 0;
 }
 
 .experienceWrapper {
     flex: 1;
     max-width: 500px;
-    min-width: 320px;
+    min-width: 0;
+}
+
+.mobileSidePanel {
+    width: 100%;
+    margin-bottom: $spacing-lg;
+    display: flex;
+    justify-content: center;
 }
 
 .favoritesWrapper {
     width: 100%;
+    margin-top: $spacing-lg;
 }
 
 .projectsWrapper {
     width: 100%;
+    margin-top: $spacing-lg;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1210px) {
+    .topSection {
+        flex-direction: column;
+        gap: $spacing-md;
+    }
+
     .experienceWrapper {
         max-width: none;
+        width: 100%;
     }
 }
 
@@ -50,8 +68,17 @@
         flex-direction: column;
     }
 
+    .mainContent {
+        padding: $spacing-md;
+    }
+
     .heroWrapper,
     .experienceWrapper {
         min-width: 100%;
+        max-width: 100%;
+    }
+
+    .topSection {
+        gap: 0;
     }
 }
