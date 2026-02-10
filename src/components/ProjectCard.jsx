@@ -28,14 +28,16 @@ function ProjectCard({ title, stack, start, end, desc, github, live }) {
 
                 >Github
                 </a>
-                <a
-                    href={live}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className={styles.socialButton}
+                {live && (
+                    <a
+                        href={live}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className={styles.socialButton}
 
-                >Demo
-                </a>
+                    >Demo
+                    </a>
+                )}
             </div>
         </div>
     );

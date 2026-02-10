@@ -39,6 +39,15 @@ function ProjectSection() {
             desc: 'A modern React dashboard providing real-time performance analytics and automated sales bonus visualizations. It replaces manual Excel workflows with a production-ready interface, reducing payout processing time by 50%.',
             github: 'https://github.com/Imani-Maua/TopShelf-frontend',
             live: ''
+        },
+        {
+            title: 'DoodlePad',
+            stack: 'MERN (MongoDB, Express, React, Node.js), TailwindCSS',
+            start: 'Dec 2025',
+            end: 'Jan 2026',
+            desc: 'A full-stack notes application that allows users to create, edit, delete, and search personal notes. Features a modern UI with glassmorphism effects and secure JWT authentication.',
+            github: 'https://github.com/Imani-Maua/DoodlePad',
+            live: ''
         }
     ];
 
