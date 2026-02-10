@@ -1,13 +1,16 @@
+import { useState } from 'react';
 import styles from './Hero.module.scss';
 import profile3 from '../assets/profile3.png';
-
-
+import ResumeModal from './ResumeModal';
 
 function Hero() {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const resumeLink = "https://docs.google.com/document/d/1L64Avr4_JXRvWG8bMgjid4cKJeq2nVTdTCJkNvOzwUU/edit?tab=t.0";
+
     return (
         <section className={styles.hero}>
             <div className={styles.heroHeading}>
-                <div classname={styles.profilePhotoContainer}>
+                <div className={styles.profilePhotoContainer}>
                     <img src={profile3}
                         alt="Maua Imani"
                         className={styles.profilePhoto} />
@@ -15,6 +18,7 @@ function Hero() {
                 <div className={styles.heroDesc}>
                     <h1 className={styles.name}>Maua Imani</h1>
                     <p className={styles.tagline}>Software Engineer</p>
+                    <p className={styles.academicInfo}>📍 University of Debrecen | BSc. Computer Science</p>
 
                 </div>
             </div>
@@ -39,13 +43,13 @@ function Hero() {
                 > GitHub
                 </a>
 
-                <a
-                    href="path/to/resume.pdf"
-                    target='_blank'
+                <div
+                    onClick={() => setIsModalOpen(true)}
                     className={styles.socialButton}
-
-                >Resume
-                </a>
+                    style={{ cursor: 'pointer' }}
+                >
+                    Request CV
+                </div>
 
                 <a
                     href="mailto:elainemaua644@gmail.com"
@@ -82,6 +86,11 @@ function Hero() {
                 <p>Learn. Coffee. Code. Solve. Build. Repeat</p>
             </div>
 
+            <ResumeModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                resumeLink={resumeLink}
+            />
         </section>
     )
 }
