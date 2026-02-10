@@ -1,9 +1,20 @@
+import ExperienceSection from '../components/ExperienceSection';
+import { extracurriculars } from '../data/experiences';
+import styles from './Page.module.scss';
+
 function Extracurriculars() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>Extracurricular Activities</h1>
-      <p>Activities and leadership roles will go here.</p>
+    <div className={styles.pageContainer}>
+      <header className={`${styles.pageHeader} ${styles.centeredHeader}`}>
+        <h1>Community & Impact</h1>
+      </header>
+
+      <ExperienceSection
+        experiences={extracurriculars}
+        hideTitle={true}
+      />
     </div>
   );
 }
+
 export default Extracurriculars;
