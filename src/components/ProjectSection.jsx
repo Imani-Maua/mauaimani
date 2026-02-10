@@ -5,6 +5,15 @@ import styles from './ProjectSection.module.scss';
 function ProjectSection() {
     const projects = [
         {
+            title: 'HeyImani Portfolio',
+            stack: 'React (HTML, SCSS, JavaScript)',
+            start: 'Jan 2026',
+            end: 'Present',
+            desc: 'A responsive portfolio site showcasing my software engineering projects, technical skills, and creative personality.',
+            github: 'https://github.com/Imani-Maua/HeyImani',
+            live: ''
+        },
+        {
             title: 'SlotMeIn',
             stack: 'FastAPI (Python), PostgreSQL, SQLAlchemy, JWT',
             start: 'July 2025',
@@ -29,15 +38,6 @@ function ProjectSection() {
             end: 'Jan 2026',
             desc: 'A modern React dashboard providing real-time performance analytics and automated sales bonus visualizations. It replaces manual Excel workflows with a production-ready interface, reducing payout processing time by 50%.',
             github: 'https://github.com/Imani-Maua/TopShelf-frontend',
-            live: ''
-        },
-        {
-            title: 'HeyImani Portfolio',
-            stack: 'React (HTML, SCSS, JavaScript)',
-            start: 'Jan 2026',
-            end: 'Present',
-            desc: 'A responsive portfolio site showcasing my software engineering projects, technical skills, and creative personality.',
-            github: 'https://github.com/Imani-Maua/HeyImani',
             live: ''
         }
     ];
