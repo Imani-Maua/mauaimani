@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './Hero.module.scss';
-import profile4 from '../assets/Profile4.jpg';
+import profile4 from '../assets/profile4.jpg';
 import ResumeModal from './ResumeModal';
 
 function Hero() {
@@ -18,7 +18,7 @@ function Hero() {
                 <div className={styles.heroDesc}>
                     <h1 className={styles.name}>Maua Imani</h1>
                     <p className={styles.tagline}>Software Engineer</p>
-                    <p className={styles.academicInfo}>📍 University of Debrecen | BSc. Computer Science</p>
+                    <p className={styles.academicInfo}>🧠 Learn • ☕ Coffee • 💻 Code • 🛠️ Build • 🔁 Repeat</p>
 
                 </div>
             </div>
@@ -67,23 +67,23 @@ function Hero() {
             <div className={styles.intro}>
 
                 <p>I build software that makes life easier so we focus on the fun stuff 🐾</p>
-                <p>Solving problems is fun. Tech is fun!  and I love fun! </p>
+                <p>Solving problems is fun.🐾 Tech is fun!🐾 and I love fun!🐾</p>
                 <p>Right now, I'm training SlotMeIn, leveraging ML algorithms and constraint optimization to intelligently schedule employee shifts. I'm using predictive models and pattern recognition to turn scheduling nightmares into data-driven allocation. You see? Fun!</p>
-                <p>I'm passionate about being an engineer who builds scalable, distributed systems that solve real problems and ship value!</p>
+                <p>I'm passionate about being an engineer who builds scalable, distributed systems that solve real problems and ship value for users!</p>
                 <p>Tech is for women too! I'm actively working to inspire younger women and girls to get into SWE, AI, systems design - all of it, like they absolutely should! 💅🏾✨ </p>
                 <div className={styles.techStack}>
                     <p>Right now I'm doing a lot of:</p>
                     <ul>
+                        <li>Fintech research</li>
                         <li>Full-stack engineering</li>
                         <li>Machine learning and AI</li>
                         <li>Computer Security</li>
-                        <li>Fintech research</li>
                         <li>Human-centered design</li>
                         <li>Distributed Systems</li>
                     </ul>
                 </div>
 
-                <p>Learn. Coffee. Code. Solve. Build. Repeat</p>
+                
             </div>
 
             <ResumeModal
