@@ -1,15 +1,13 @@
 export const workExperiences = [
     {
-        title: "Software Engineering Intern",
-        company: "AkiraChix",
-        startDate: "Dec 2023",
-        endDate: "Jul 2024",
+        title: "SWE Fellow - WiseWomenCode",
+        company: "Wise",
+        startDate: "Feb 2026",
+        endDate: "Feb 2026",
         description: [
-            "Built and maintained backend services for AfyaLink, a digital health platform delivering real-time immunization alerts and outbreak notifications to underserved communities.",
-            "Designed and implemented RESTful APIs using FastAPI, applying Pydantic models for request validation and data integrity.",
-            "Integrated backend services with relational databases, ensuring reliable data persistence and efficient query handling.",
-            "Collaborated in a cross-functional, 4-person engineering team, contributing to feature design, implementation, and testing.",
-            "Participated in code reviews and iterative development, strengthening system reliability and maintainability in a production environment."
+            "17/100 applicants selected to attend a 3-day intensive program at Wise Budapest's Budapest office.",
+            "Collaborated with Wisers + peers to build a Java-based money transfer service",
+            "Attended interactive sessions focused technical SWE interview skills and tech talks"
         ]
     },
     {
@@ -25,20 +23,29 @@ export const workExperiences = [
         ]
     },
     {
-        title: "SWE Fellow - WiseWomenCode",
-        company: "Wise",
-        startDate: "Feb 2026",
-        endDate: "Feb 2026",
+        title: "Software Engineering Intern",
+        company: "AkiraChix",
+        startDate: "Dec 2023",
+        endDate: "Jul 2024",
         description: [
-            "17/100 applicants selected to attend a 3-day intensive program at Wise Budapest's Budapest office.",
-            "Collaborated with Wisers + peers to build a Java-based money transfer service",
-            "Attended interactive sessions focused technical SWE interview skills and tech talks"
+            "Built and maintained backend services for AfyaLink, a digital health platform delivering real-time immunization alerts and outbreak notifications to underserved communities.",
+            "Designed and implemented RESTful APIs using FastAPI, applying Pydantic models for request validation and data integrity.",
+            "Integrated backend services with relational databases, ensuring reliable data persistence and efficient query handling.",
+            "Collaborated in a cross-functional, 4-person engineering team, contributing to feature design, implementation, and testing.",
+            "Participated in code reviews and iterative development, strengthening system reliability and maintainability in a production environment."
         ]
     }
     
 ];
 
 export const extracurriculars = [
+    {
+        title: "Peer Lead",
+        company: "AkiraChix",
+        startDate: "Feb 2024",
+        endDate: "Present",
+        description: "Served as a mentor to high school graduates interested in pursuing careers in technology, providing guidance on computer science fundamentals, academic pathways, and career development through online workshops and bootcamps focused on building confidence, problem-solving skills, and readiness for university-level computer science."
+    },
     {
         title: "Club Coordinator",
         company: "Google Developer Student Clubs - UniDeb",
@@ -47,10 +54,11 @@ export const extracurriculars = [
         description: "Led and coordinated technical workshops, hackathons, and community events for students interested in Google technologies and software development. Fostered a collaborative learning environment and connected students with industry professionals and resources."
     },
     {
-        title: "Peer Lead",
-        company: "AkiraChix",
-        startDate: "Feb 2024",
+        title: "Club Member",
+        company: "Green Tech",
+        startDate: "Jan 2026",
         endDate: "Present",
-        description: "Served as a mentor to high school graduates interested in pursuing careers in technology, providing guidance on computer science fundamentals, academic pathways, and career development through online workshops and bootcamps focused on building confidence, problem-solving skills, and readiness for university-level computer science."
+        description: ["Collaborated with peers to explore the intersection of technology and sustainability.",
+            "Engage in projects and activities that focus on green innovation, environmental awareness, and the development of tech-based solutions to real-world ecological issues."]
     }
 ];

@@ -11,7 +11,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             end: 'Present',
             desc: 'A responsive portfolio site showcasing my software engineering projects, technical skills, and creative personality.',
             github: 'https://github.com/Imani-Maua/HeyImani',
-            live: 'https://mauaimani.netlify.app'
+            live: 'https://helloimani.vercel.app'
         },
         {
             title: 'DoodleMe (frontend)',
@@ -20,7 +20,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             end: 'Feb 2026',
             desc: 'React SPA with JWT-based auth, Context API for state management, protected routing, real-time note search, and beautiful UI built with TailwindCSS.',
             github: 'https://github.com/Imani-Maua/DoodlePad',
-            live: 'https://doodleme.netlify.app'
+            live: 'https://doodlepad-two.vercel.app'
         },
         {
             title: 'DoodleMe (Backend)',
@@ -29,7 +29,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             end: 'Feb 2026',
             desc: 'REST API for a personal notes app with JWT authentication, bcrypt password hashing, rate limiting, and security headers. Migrated from Mongoose to Prisma ORM.',
             github: 'https://github.com/Imani-Maua/DoodlePad-backend',
-            live: 'https://doodleme.netlify.app'
+            live: 'https://doodlepad-two.vercel.app'
         },
         {
             title: 'SlotMeIn',
