@@ -31,6 +31,15 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             github: 'https://github.com/Imani-Maua/DoodlePad-backend',
             live: 'https://doodlepad-two.vercel.app'
         },
+         {
+            title: 'SlotMeIn Client',
+            stack: 'React 19, Vite, SCSS',
+            start: 'July 2025',
+            end: 'Present',
+            desc: 'A FastAPI-based scheduling engine that intelligently allocates employee shifts while respecting labor regulations and availability. It utilizes a constraint-satisfaction approach to ensure fair staffing and compliant shift assignments.',
+            github: 'https://github.com/Imani-Maua/SlotMeIn-Client',
+            live: 'https://slotmein.vercel.app'
+        },
         {
             title: 'SlotMeIn',
             stack: 'FastAPI (Python), PostgreSQL, SQLAlchemy, JWT',
@@ -38,7 +47,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             end: 'Present',
             desc: 'A FastAPI-based scheduling engine that intelligently allocates employee shifts while respecting labor regulations and availability. It utilizes a constraint-satisfaction approach to ensure fair staffing and compliant shift assignments.',
             github: 'https://github.com/Imani-Maua/SlotMeIn',
-            live: ''
+            live: 'https://slotmein.vercel.app'
         },
         {
             title: 'TopShelf (backend)',
