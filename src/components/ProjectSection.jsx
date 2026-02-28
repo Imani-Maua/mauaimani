@@ -14,7 +14,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             live: 'https://hello-imani.vercel.app'
         },
         {
-            title: 'DoodleMeC Client',
+            title: 'DoodleMe Client',
             stack: 'React, Vite, TailwindCSS, Context API',
             start: 'Dec 2025',
             end: 'Feb 2026',
