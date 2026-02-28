@@ -14,7 +14,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             live: 'https://hello-imani.vercel.app'
         },
         {
-            title: 'DoodleMe (frontend)',
+            title: 'DoodleMeC Client',
             stack: 'React, Vite, TailwindCSS, Context API',
             start: 'Dec 2025',
             end: 'Feb 2026',
@@ -23,7 +23,7 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             live: 'https://doodlepad-two.vercel.app'
         },
         {
-            title: 'DoodleMe (Backend)',
+            title: 'DoodleMe Server',
             stack: 'Node.js, Express, Prisma, MongoDB Atlas',
             start: 'Dec 2025',
             end: 'Feb 2026',
@@ -36,12 +36,12 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             stack: 'React 19, Vite, SCSS',
             start: 'July 2025',
             end: 'Present',
-            desc: 'A FastAPI-based scheduling engine that intelligently allocates employee shifts while respecting labor regulations and availability. It utilizes a constraint-satisfaction approach to ensure fair staffing and compliant shift assignments.',
+            desc: 'A React SPA providing an interface for workforce management. Features interactive scheduling grids, talent management tools, and real-time shift validation, transforming complex automated scheduling data into an intuitive and actionable experience.',
             github: 'https://github.com/Imani-Maua/SlotMeIn-Client',
             live: 'https://slotmein.vercel.app'
         },
         {
-            title: 'SlotMeIn',
+            title: 'SlotMeIn Server',
             stack: 'FastAPI (Python), PostgreSQL, SQLAlchemy, JWT',
             start: 'July 2025',
             end: 'Present',
@@ -49,24 +49,25 @@ function ProjectSection({ layout = 'grid', hideTitle = false }) {
             github: 'https://github.com/Imani-Maua/SlotMeIn',
             live: 'https://slotmein.vercel.app'
         },
-        {
-            title: 'TopShelf (backend)',
-            stack: 'Node.js (Express), Prisma, MongoDB, Jest, Docker',
-            start: 'Nov 2025',
-            end: 'Jan 2026',
-            desc: 'A robust Express.js API designed to automate commission-based bonus calculations for retail and restaurant environments. It features a scalable calculation engine and comprehensive audit logs for transparent payout reporting.',
-            github: 'https://github.com/Imani-Maua/TopShelf-backend',
-            live: ''
-        },
-        {
-            title: 'Topshelf (frontend)',
+         {
+            title: 'Topshelf Client',
             stack: 'React 19, Vite, Recharts, Vitest, Docker',
             start: 'Nov 2025',
             end: 'Jan 2026',
             desc: 'A modern React dashboard providing real-time performance analytics and automated sales bonus visualizations. It replaces manual Excel workflows with a production-ready interface, reducing payout processing time by 50%.',
             github: 'https://github.com/Imani-Maua/TopShelf-frontend',
             live: ''
+        },
+        {
+            title: 'TopShelf Server',
+            stack: 'Node.js (Express), Prisma, MongoDB, Jest, Docker',
+            start: 'Nov 2025',
+            end: 'Jan 2026',
+            desc: 'A robust Express.js API designed to automate commission-based bonus calculations for retail and restaurant environments. It features a scalable calculation engine and comprehensive audit logs for transparent payout reporting.',
+            github: 'https://github.com/Imani-Maua/TopShelf-backend',
+            live: ''
         }
+       
         
     ];
 
